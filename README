@@ -1,0 +1,53 @@
+#####################################################################
+# Processor Lab
+# Handout files for students
+#
+# Copyright (c) 2002, 2010, 2015, R. Bryant and D. O'Hallaron,
+# All rights reserved. May not be used, modified, or copied
+# without permission.
+#
+######################################################################
+
+This directory contains the files that you need for the Processor Lab
+
+
+This directory contains the distribution of the Y86-64 tools:
+
+yas         Y86-64 assembler
+yis         Y86-64 instruction (ISA) simulator
+ssim        SEQ simulator
+psim        PIPE simulator
+
+************
+Directories:
+************
+
+misc/
+    Source files for the Y86-64 assembler yas, the Y86-64 instruction
+    simulator yis, and the isa.c file that is used by the -t option
+    of the processor simulators to check the results against the
+    ISA simulation.
+
+seq/
+    Code for the SEQ simulator.  Contains HCL files for the processor lab.
+
+pipe/
+    Code for the PIPE simulator.  Contains HCL files for the processor lab.
+
+y86-code/
+    Example .ys files from CS:APP and scripts for conducting
+    automated benchmark teseting of the new processor designs.
+
+ptest/
+    Automated regression testing scripts for testing processor designs.
+
+
+******
+Files:
+******
+
+Makefile                Use this to handin your solutions and compile simulators
+README                  This file
+archlab.pdf             Lab writeup
+sim.tgz                 Archive of the Y86-64 tools in tgz format
+simguide.pdf            Guide to Simulators document
